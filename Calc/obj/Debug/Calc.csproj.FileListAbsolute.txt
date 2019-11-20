@@ -1,0 +1,5 @@
+c:\users\shahdee\documents\visual studio 2012\Projects\Calc\Calc\bin\Debug\Calc.exe.config
+c:\users\shahdee\documents\visual studio 2012\Projects\Calc\Calc\bin\Debug\Calc.exe
+c:\users\shahdee\documents\visual studio 2012\Projects\Calc\Calc\bin\Debug\Calc.pdb
+c:\users\shahdee\documents\visual studio 2012\Projects\Calc\Calc\obj\Debug\Calc.exe
+c:\users\shahdee\documents\visual studio 2012\Projects\Calc\Calc\obj\Debug\Calc.pdb
