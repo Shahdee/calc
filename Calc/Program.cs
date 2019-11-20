@@ -240,7 +240,7 @@ namespace Calc
         void CalcFinalResult()
         {
 
-            Console.WriteLine("CalcFinalResult ");
+            //Console.WriteLine("CalcFinalResult ");
 
             string currOperator;
             double result, operand1, operand2;
