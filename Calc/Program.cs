@@ -144,7 +144,7 @@ namespace Calc
             {
                 currToken = GetToken(ref index, input); // we get from here correct operators and operands
 
-                Console.WriteLine(" > " + currToken + "  i= " + index);
+                //Console.WriteLine(" > " + currToken + "  i= " + index);
                 //Console.WriteLine(" >token " + currToken);
 
                 if (isOperator(currToken))
@@ -202,7 +202,7 @@ namespace Calc
             string currOperator;
             double result, operand1, operand2;
 
-            Console.WriteLine("TryApplyOperationsInsideParenInStack");
+            //Console.WriteLine("TryApplyOperationsInsideParenInStack");
 
             while (m_OperatorStack.Count > 0)
             {
@@ -221,7 +221,7 @@ namespace Calc
 
                         result = GetOperationResult(currOperator, operand1, operand2);
 
-                        Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
+                        //Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
 
                         m_OperandStack.Push(result);
                     }
@@ -257,7 +257,7 @@ namespace Calc
 
                     result = GetOperationResult(currOperator, operand1, operand2);
 
-                    Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
+                    //Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
 
                     m_OperandStack.Push(result);
                 }
@@ -294,7 +294,7 @@ namespace Calc
         bool TryApplyOperationInStack(string currToken)
         {
 
-            Console.WriteLine("TryApplyOperationInStack " + currToken);
+            //Console.WriteLine("TryApplyOperationInStack " + currToken);
 
             string currOperator;
             int priorityCurrToken;
@@ -321,7 +321,7 @@ namespace Calc
 
                         result = GetOperationResult(currOperator, operand1, operand2);
 
-                        Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
+                        //Console.WriteLine("tmp res " + operand1 + " " + currOperator + " " + operand2 + " = " + result);
 
                         m_OperandStack.Push(result);
                     }
@@ -394,7 +394,7 @@ namespace Calc
 
         static public void GetAllTokens(string input)
         {
-            Console.WriteLine(" GetAllTokens input= " + input + " / len= " + input.Length);
+            //Console.WriteLine(" GetAllTokens input= " + input + " / len= " + input.Length);
 
             string token;
             int index = 0;

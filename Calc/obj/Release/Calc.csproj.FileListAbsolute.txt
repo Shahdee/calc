@@ -1,0 +1,6 @@
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\bin\Release\Calc.exe.config
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\bin\Release\Calc.exe
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\bin\Release\Calc.pdb
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\obj\Release\Calc.csprojResolveAssemblyReference.cache
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\obj\Release\Calc.exe
+C:\Users\Shahdee\Documents\Visual Studio 2012\Projects\Calc\Calc\obj\Release\Calc.pdb
